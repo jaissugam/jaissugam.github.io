@@ -1,0 +1,26 @@
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+  padding-top: 70px;
+}
+.outro{
+  background-color: lightblue;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.outro .container {
+  margin:5%;
+  
+}
+.intro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.intro img{
+  border-radius: 60%;
+}
