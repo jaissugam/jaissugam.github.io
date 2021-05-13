@@ -14,12 +14,12 @@ const Home=()=>{
                                 <img src={profile} alt="" width="250" height="250"/>
                             </div>
                             <div>
-                                <p>Computer Science Student</p>
+                                <h4>Computer Science Student</h4>
                             </div>
                         </div>
                     </Col>
                     <Col sm={4}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis sapien viverra, sollicitudin ligula vel, vehicula tortor. Nam ullamcorper velit ac nibh congue laoreet. Proin at faucibus tortor. Morbi vel ligula et est molestie placerat quis facilisis purus. Fusce a pharetra nulla. Nullam egestas ornare quam, id bibendum arcu eleifend in. Aenean interdum ante orci. Mauris rhoncus dui purus, ut mattis dolor volutpat non. Morbi tempor mauris risus, quis congue odio tempor facilisis. Integer at condimentum purus. Cras tellus nisl, blandit sodales diam quis, pharetra pretium libero. 
+                    <h2>“Magic is believing in yourself. If you can make that happen, you can make anything happen.” – Johann Wolfgang Von Goethe </h2>
                     </Col>
                 </Row>
                 
