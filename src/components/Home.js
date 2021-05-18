@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container,Row,Col} from 'react-bootstrap';
 import profile from '../pics/profile.jpg';
+import Quote from './Quote';
 import '../App.css';
 
 const Home=()=>{
@@ -19,7 +20,7 @@ const Home=()=>{
                         </div>
                     </Col>
                     <Col sm={4}>
-                    <h2>“Magic is believing in yourself. If you can make that happen, you can make anything happen.” – Johann Wolfgang Von Goethe </h2>
+                    <Quote></Quote>
                     </Col>
                 </Row>
                 
