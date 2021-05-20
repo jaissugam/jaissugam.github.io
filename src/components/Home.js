@@ -2,6 +2,7 @@ import React from 'react';
 import {Container,Row,Col} from 'react-bootstrap';
 import profile from '../pics/profile.jpg';
 import Quote from './Quote';
+import Slider from './Slider';
 import '../App.css';
 
 const Home=()=>{
@@ -15,7 +16,7 @@ const Home=()=>{
                                 <img src={profile} alt="" width="250" height="250"/>
                             </div>
                             <div>
-                                <h4>Computer Science Student</h4>
+                                <Slider></Slider>
                             </div>
                         </div>
                     </Col>

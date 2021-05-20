@@ -37,7 +37,7 @@ const cover={
 }
 const link={
     textDecoration:"none",
-    color:"white",
+    
     marginRight:"10px"
 }
 export default Header;

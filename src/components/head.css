@@ -1,3 +1,40 @@
-Link:hover{
-    color:lightblue;
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+a:hover{
+    color:rgb(219, 199, 163);
+    animation: rotate 4s ease-in infinite;
+}
+
+@keyframes rotate {
+    25%{
+        transform: skewX(90deg);
+    }
+    
+    50%{
+        transform: skewX(180deg);
+    }
+    
+    75%{
+        transform: skewX(270deg);
+    }
+    100%{
+        transform:skewX(360deg);
+    }
+}
+.cover1 a{
+    animation: hello 1s ease-in-out infinite;
+}
+@keyframes hello {
+    25%{
+        opacity:0.8;
+    }
+    50%{
+        opacity: 0.5;
+        color:rgb(219, 199, 163);
+    }
+    75%{
+        opacity: 1;
+    }
 }
