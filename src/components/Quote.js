@@ -1,4 +1,5 @@
 import {Card} from 'react-bootstrap';
+import './Quote.css';
 const collection=[
     ['Magic is believing in yourself. If you can make that happen, you can make anything happen.','Johann Wolfgang Von Goethe'],
     ['If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.','Steve Jobs'],
@@ -9,9 +10,9 @@ const collection=[
 const Quote=()=>{
     const num=Math.floor(Math.random() * 5);
     return (
-        <Card style={quote}>
-            <Card.Header>Quote</Card.Header>
-            <Card.Body>
+        <Card style={quote} className="quote">
+            <Card.Header className="head">Quote Of The Day</Card.Header>
+            <Card.Body className="body">
                 <blockquote className="blockquote mb-0">
                 <p>
                     {' '}

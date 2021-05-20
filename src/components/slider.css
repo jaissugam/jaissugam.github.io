@@ -1,13 +1,15 @@
 .slider-wrapper {
     font-size: 1.5rem;
     color:rgb(34, 32, 32);
-    font-weight: bold;
     text-align: center;
+    font-family:serif;
   }
   .slider{
     height: 40px;
     padding-left:15px;
     overflow: hidden;
+    border-radius: 30px;
+    margin-bottom: 20px;
   }
   .slider div {
     color:#fff;
@@ -16,6 +18,7 @@
     padding: 2px 15px;
     text-align: center;
     box-sizing: border-box;
+    font-family:cursive;
   }
   .slider-text1 {
     background: lightgreen;

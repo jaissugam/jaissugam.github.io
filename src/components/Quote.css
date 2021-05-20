@@ -1,0 +1,30 @@
+.quote{
+    background-color: #343a40;
+    border:none;
+}
+.body p{
+    color:whitesmoke;
+    font-family:cursive;
+}
+.body footer{
+    color:rgb(219, 199, 163);
+}
+.card .head{
+    border-radius: 20px;;
+}
+.head{
+    color:rgb(219, 199, 163);
+    border:2px solid rgb(219, 199, 163);
+    animation: quote 1s ease infinite;
+}
+@keyframes quote {
+    
+    50%{
+        border:2px solid rgb(219, 199, 163);
+        color:whitesmoke
+    }
+    75%{
+        border:2px solid whitesmoke;
+        color:rgb(219, 199, 163);
+    }
+}

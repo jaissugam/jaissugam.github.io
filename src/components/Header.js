@@ -33,7 +33,8 @@ const cover={
     alignItems:"stretch",
     justifyContent:"space-between",
     backgroundColor:"#343a40",
-    fontSize:"1.5rem"
+    fontSize:"1.5rem",
+    border:'1.5px dotted white'
 }
 const link={
     textDecoration:"none",
