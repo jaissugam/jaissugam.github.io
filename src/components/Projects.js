@@ -1,11 +1,12 @@
 import {Card} from 'react-bootstrap';
 import Project from './Project';
 import spacex from '../pics/spacex.png';
+import './Project.css';
 const Projects=()=>{
     return (
-        <Card >
+        <Card className="projects">
             <Card.Header as="h5">Mapping the skills to use</Card.Header>
-            <Card.Body >
+            <Card.Body style={{backgroundColor:"#343a40"}}>
                 <Project 
                 pic={spacex}
                 title='SpaceX WebApp' 

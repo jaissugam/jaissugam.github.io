@@ -1,12 +1,13 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
+import './Project.css';
 const Project=(props)=>{
     return (
-        <div>
-            <Card >
+        <div className="project">
+            <Card style={{backgroundColor:'#343a40',margin:'2%',border:'2px solid rgb(219, 199, 163)'}}>
                 
-                <Card.Body>
-                    <Card.Title>{props.title}</Card.Title>
+                <Card.Body style={{color:'white'}}>
+                    <Card.Title style={{display:'inline-block',borderRadius:'10px',padding:'15px',border:'2px solid rgb(219, 199, 163)'}}>{props.title}</Card.Title>
                     <Card.Text>
                     {props.info}
                     </Card.Text>
@@ -20,4 +21,5 @@ const Project=(props)=>{
 
     );
 }
+
 export default Project;

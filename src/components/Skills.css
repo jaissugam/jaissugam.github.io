@@ -1,0 +1,43 @@
+.skills{
+    background-color: #C7D3D4FF;
+}
+.skills h5{
+    animation: title 5s linear 5s infinite ;
+    
+}
+@keyframes title {
+    25%{
+       padding-left: 25%; 
+       color:rgb(219, 199, 163);
+       
+    }
+    50%{
+        padding-left: 35%;
+    }
+    75%{
+        padding-left: 40%;
+        color:black;
+    }
+    
+}
+.a{
+    background-color: #0f4c75;
+}
+.b{
+    background-color: #6d9e46;
+}
+.c{
+    background-color: #580827;
+}
+.d{
+    background-color: #1b262c;
+}
+.e{
+    background-color: #ebc76359;
+}
+.f{
+    background-color: #b6702e;
+}
+.g{
+    background-color: #11462b;
+}

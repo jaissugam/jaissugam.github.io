@@ -1,0 +1,25 @@
+.about{
+    background-color: #C7D3D4FF;
+}
+.about h5{
+    animation: title 5s linear 5s infinite ;
+    
+}
+@keyframes title {
+    25%{
+       padding-left: 30%; 
+       color:rgb(219, 199, 163);
+       
+    }
+    50%{
+        padding-left: 50%;
+    }
+    75%{
+        padding-left: 60%;
+        color:black;
+    }
+    
+}
+.about .card-title{
+    font-family: cursive;
+}

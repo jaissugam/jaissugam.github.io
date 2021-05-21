@@ -1,8 +1,8 @@
 import {Card,ListGroup} from 'react-bootstrap';
-
+import './Footer.css';
 const Footer=()=>{
     return (
-        <Card>
+        <Card className="foot">
             <Card.Header as="h5">If you wanna connect</Card.Header>
             <Card.Body style={mycard}>
             <ListGroup horizontal>
@@ -12,7 +12,7 @@ const Footer=()=>{
                 <ListGroup.Item ><a style={{color:'black'}} rel="noreferrer" target='_blank' href='https://github.com/jaissugam'><i className="fab fa-github-square fa-3x fa-spin"></i></a></ListGroup.Item>
                 <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/sugam-jaiswal-31a27a1a3/'><i className="fab fa-linkedin fa-3x fa-spin"></i></a></ListGroup.Item>
             </ListGroup>
-            <Card.Subtitle style={{marginTop:'10px'}}>Crafted by sgm with 💓</Card.Subtitle>
+            <Card.Subtitle style={{marginTop:'10px',color:'whitesmoke'}}>Crafted by sgm with 💓</Card.Subtitle>
             </Card.Body>
         </Card>
     );

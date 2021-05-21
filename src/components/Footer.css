@@ -1,0 +1,42 @@
+.foot{
+    background-color: #343a40;
+}
+.foot h5{
+    animation: title 5s linear 5s infinite ;
+    
+}
+@keyframes title {
+    25%{
+       padding-left: 25%; 
+       color:rgb(219, 199, 163);
+       
+    }
+    50%{
+        padding-left: 40%;
+    }
+    75%{
+        padding-left: 45%;
+        color:whitesmoke;
+    }
+    
+}
+.foot .card-subtitle{
+    animation: hello 1s ease-in-out infinite;
+}
+@keyframes hello {
+    25%{
+        opacity:0.8;
+    }
+    50%{
+        opacity: 0.5;
+        color:rgb(219, 199, 163);
+    }
+    75%{
+        opacity: 1;
+    }
+}
+.foot .list-group-item{
+    background-color:#343a40;
+    border:2px solid rgb(219, 199, 163);
+    border-radius: 15px;
+}
