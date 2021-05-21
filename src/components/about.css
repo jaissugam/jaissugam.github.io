@@ -23,3 +23,27 @@
 .about .card-title{
     font-family: cursive;
 }
+.about span::before {
+    content: "Hello";
+    animation: animate infinite 10s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    25% {
+        content: "नमस्ते";
+    }
+    33%{
+        content: "Bonjour";
+    }
+    50% {
+        content: "Hola";
+    }
+    67%{
+        content:"Hallo";
+    }
+    75% {
+        content: "Привет";
+    }
+}

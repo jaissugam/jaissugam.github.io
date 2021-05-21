@@ -1,18 +1,12 @@
 .projects h5{
-    animation: title 5s linear 5s infinite ;
+    animation: abc 2s infinite ;
     
 }
-@keyframes title {
+@keyframes abc {
     25%{
-       padding-left: 25%; 
-       color:rgb(219, 199, 163);
-       
-    }
-    50%{
-        padding-left: 35%;
+        color:rgb(219, 199, 163);
     }
     75%{
-        padding-left: 45%;
         color:black;
     }
     

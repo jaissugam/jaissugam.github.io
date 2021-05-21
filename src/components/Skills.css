@@ -41,27 +41,3 @@
 .g{
     background-color: #11462b;
 }
-.about span::before {
-    content: "Hello";
-    animation: animate infinite 10s;
-    padding-left: 10px;
-}
-
-@keyframes animate {
-
-    25% {
-        content: "नमस्ते";
-    }
-    33%{
-        content:"Bonjour";
-    }
-    50% {
-        content: "Hola";
-    }
-    33%{
-        content:"Hallo";
-    }
-    75% {
-        content: "Привет";
-    }
-}
