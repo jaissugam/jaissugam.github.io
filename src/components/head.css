@@ -3,24 +3,9 @@ a{
     color:white;
 }
 a:hover{
-    color:rgb(219, 199, 163);
-    animation: rotate 4s ease infinite;
+    cursor:pointer;
 }
 
-@keyframes rotate {
-    25%{
-        transform: skewX(90deg);
-    }
-    
-    50%{
-        transform: skewX(180deg);
-    }
-    
-    75%{
-        transform: skewX(270deg);
-    }
-    
-}
 .cover1 a{
     animation: hello 1s ease-in-out infinite;
 }
@@ -36,3 +21,4 @@ a:hover{
         opacity: 1;
     }
 }
+

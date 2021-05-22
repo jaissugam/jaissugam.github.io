@@ -12,16 +12,22 @@ body{
   background-color: #343a40;
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
   height: 100%;
+  width: 100%;
 }
 .outro .container {
-  margin:5%;
+  margin-top:5%;
   
 }
 .intro{
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
   
 }
 .intro h3{
