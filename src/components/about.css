@@ -8,15 +8,11 @@
 }
 @keyframes title {
     25%{
-       padding-left: 30%; 
        color:rgb(219, 199, 163);
        
     }
-    50%{
-        padding-left: 50%;
-    }
+    
     75%{
-        padding-left: 60%;
         color:black;
     }
     
