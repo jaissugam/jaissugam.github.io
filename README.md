@@ -1,2 +1,2 @@
-# portfolio
-This is the repository for my personal portfolio page.
+# jaissugam.github.io
+Repository for the portfolio website
