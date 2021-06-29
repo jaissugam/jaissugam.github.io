@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer=()=>{
     return (
         <Card className="foot">
-            <Card.Header as="h5">If you wanna connect</Card.Header>
+            <Card.Header as="h5" style={{textAlign:'center'}}>If you wanna connect</Card.Header>
             <Card.Body style={mycard}>
             <ListGroup horizontal>
                 <ListGroup.Item ><a style={{color:'blue'}} rel="noreferrer" target='_blank' href='https://www.facebook.com/sugam.jaiswal'><i className="fab fa-facebook fa-2x"></i></a></ListGroup.Item>
