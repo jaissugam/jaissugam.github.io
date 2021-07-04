@@ -15,6 +15,7 @@ const Home=()=>{
                             <div>
                                 <img src={profile} alt="" width="250" height="250"/>
                             </div>
+                            <br></br>
                             <div>
                                 <Slider></Slider>
                             </div>

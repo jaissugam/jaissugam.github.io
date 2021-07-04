@@ -9,7 +9,7 @@ const Header=()=>{
            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={cover}>
                <div className="cover1">
                 <Navbar.Brand>
-                    <img src={profile} alt=""width="50" height="50"></img>
+                    <img src={profile} alt="" width="50" height="50" style={{marginRight:'10px'}}></img>
                     <Link style={link} onClick={scroll.scrollToTop}  smooth={true} offset={-70} duration={1000}>Hello World!</Link>
                 </Navbar.Brand>
                 </div>
@@ -41,6 +41,7 @@ const cover={
 }
 const link={
     textDecoration:"none",
-    marginRight:"5px"
+    marginRight:"10px",
+    color:"white"
 }
 export default Header;

@@ -30,7 +30,7 @@ const Projects=()=>{
                 <Project 
                 title='Optimized CPU scheduling algorithm' 
                 gitlink='https://github.com/jaissugam/Mini-Projects-collection/tree/master/Optimized%20CPU%20Scheduling' 
-                info='The primary aim of this project is to come up with a method for round robin CPU scheduling which enhances the CPU performance in a real time operating system. The proposed algorithm for real time systems is a combination of priority and round-robin CPU scheduling algorithms. It combines the merits of round robin, like elimination of starvation, and priority scheduling.'></Project>
+                info='The proposed algorithm for real time systems is a combination of priority and round-robin CPU scheduling algorithms. It combines the merits of round robin, like elimination of starvation, and priority scheduling.'></Project>
             </Card.Body>
         </Card>
     );

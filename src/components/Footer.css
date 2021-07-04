@@ -16,20 +16,9 @@
     
 }
 .foot .card-subtitle{
-    animation: hello 1s ease-in-out infinite;
+    color:rgb(219, 199, 163);
 }
-@keyframes hello {
-    25%{
-        opacity:0.8;
-    }
-    50%{
-        opacity: 0.5;
-        color:rgb(219, 199, 163);
-    }
-    75%{
-        opacity: 1;
-    }
-}
+
 .foot .list-group-item{
     background-color:#343a40;
     border:2px solid rgb(219, 199, 163);

@@ -14,6 +14,7 @@ const Skills=()=>{
                     JavaScript
                     </Col>
                 </Row>
+                <br></br>
                 <Row>
                     <Col xs={6} md={4} style={column} className="c">
                     React JS
@@ -25,6 +26,7 @@ const Skills=()=>{
                     Git and Github
                     </Col>
                 </Row>
+                <br></br>
                 <Row>
                     <Col xs={6} style={column} className="f">C++</Col>
                     <Col xs={6} style={column} className="g">JAVA</Col>
