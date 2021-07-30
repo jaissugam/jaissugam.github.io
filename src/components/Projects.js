@@ -19,10 +19,9 @@ const Projects=()=>{
                 weblink='https://jaissugam.github.io/todolist/'
                 info='Simple todo web app with basic vue implementation Vue is a front-end JS framework which provides flexibility in UI designing.'></Project>
                 <Project 
-                title='Grade Calculation System' 
-                gitlink='https://github.com/jaissugam/Grade-Calculation-System' 
-                weblink='https://calcgrade.000webhostapp.com/'
-                info='This is a simple webpage made up with html, css, php and mysql to implement a grade calculation and management in schools and colleges. '></Project>
+                title='Lane Line Detection System' 
+                gitlink='https://github.com/jaissugam/Lane-Line-Detection' 
+                info='The project presents a Python program running on OpenCV library. The compiled program detects the lane markers on the road adaptable in both picture and video formats.'></Project>
                 <Project 
                 title='Dummy Youtube' 
                 gitlink='https://github.com/jaissugam/Dummy_youtube' 

@@ -23,12 +23,12 @@ const Skills=()=>{
                     MySQL
                     </Col>
                     <Col xs={6} md={4} style={column} className="e">
-                    Git and Github
+                    Python
                     </Col>
                 </Row>
                 <br></br>
                 <Row>
-                    <Col xs={6} style={column} className="f">C++</Col>
+                    <Col xs={6} style={column} className="f">TensorFlow</Col>
                     <Col xs={6} style={column} className="g">JAVA</Col>
                 </Row>
             </Container>
