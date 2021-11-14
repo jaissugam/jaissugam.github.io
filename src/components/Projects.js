@@ -7,6 +7,14 @@ const Projects=()=>{
         <Card className="projects">
             <Card.Header as="h5" style={{textAlign:'center'}}>Mapping the skills to use</Card.Header>
             <Card.Body style={{backgroundColor:"#343a40"}}>
+            <Project 
+                title='Movie Box Office Prediction' 
+                gitlink='https://github.com/jaissugam/Movie-Box-Office-Prediction-using-SVM' 
+                info='The project uses Support Vector Machines(SVM) Regression model to predict the box-office collection of movies.'></Project>
+                <Project 
+                title='Offensive Texts Classification' 
+                gitlink='https://github.com/jaissugam/Offensive-Text-Identification' 
+                info='It implements classification models like Naive Bayes and LSTM to classify offensive tweets.'></Project>
                 <Project 
                 pic={spacex}
                 title='SpaceX WebApp' 
@@ -22,10 +30,6 @@ const Projects=()=>{
                 title='Lane Line Detection System' 
                 gitlink='https://github.com/jaissugam/Lane-Line-Detection' 
                 info='The project presents a Python program running on OpenCV library. The compiled program detects the lane markers on the road adaptable in both picture and video formats.'></Project>
-                <Project 
-                title='Dummy Youtube' 
-                gitlink='https://github.com/jaissugam/Dummy_youtube' 
-                info='A react app which uses Youtube Data API to show and play searched youtube videos.'></Project>
                 <Project 
                 title='Optimized CPU scheduling algorithm' 
                 gitlink='https://github.com/jaissugam/Mini-Projects-collection/tree/master/Optimized%20CPU%20Scheduling' 
