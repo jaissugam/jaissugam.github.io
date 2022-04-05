@@ -14,6 +14,7 @@ const Projects=()=>{
                 <Project 
                 title='Offensive Texts Classification' 
                 gitlink='https://github.com/jaissugam/Offensive-Text-Identification' 
+                weblink='https://offlang.herokuapp.com/'
                 info='It implements classification models like Naive Bayes and LSTM to classify offensive tweets.'></Project>
                 <Project 
                 pic={spacex}
