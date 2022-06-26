@@ -1,6 +1,6 @@
 import React from 'react';
 import {Nav,Navbar} from 'react-bootstrap';
-import profile from '../pics/profile.jpg';
+import logo from '../pics/logo.PNG';
 import './head.css';
 import { Link ,animateScroll as scroll} from "react-scroll";
 const Header=()=>{
@@ -9,7 +9,7 @@ const Header=()=>{
            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={cover}>
                <div className="cover1">
                 <Navbar.Brand>
-                    <img src={profile} alt="" width="50" height="50" style={{marginRight:'10px'}}></img>
+                    <img src={logo} alt="" width="50" height="50" style={{marginRight:'10px'}}></img>
                     <Link style={link} onClick={scroll.scrollToTop}  smooth={true} offset={-70} duration={1000}>Hello World!</Link>
                 </Navbar.Brand>
                 </div>
