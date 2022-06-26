@@ -4,6 +4,10 @@ const collection=[
     ['Magic is believing in yourself. If you can make that happen, you can make anything happen.','Johann Wolfgang Von Goethe'],
     ['If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.','Steve Jobs'],
     ['Whether You Think You Can Or Think You Can’t, You’re Right.','Henry Ford'],
+    ['You can’t use up creativity. The more you use, the more you have.','Maya Angelou'],
+    ['The man on top of the mountain didn’t fall there.','Vince Lombardi'],
+    ['Nothing is really work unless you would rather be doing something else.','J.M. Barrie'],
+    ['Done is better than perfect.','Sheryl Sandberg'],
     ['If you don\'t value your time, neither will others. Stop giving away your time and talents--start charging for it.','Kim Garst'],
     ['Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you.','Nathaniel Hawthorne']
 ];

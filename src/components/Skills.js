@@ -20,7 +20,7 @@ const Skills=()=>{
                     React JS
                     </Col>
                     <Col xs={6} md={4} style={column} className="d">
-                    MySQL
+                    Flask
                     </Col>
                     <Col xs={6} md={4} style={column} className="e">
                     Python
@@ -28,7 +28,7 @@ const Skills=()=>{
                 </Row>
                 <br></br>
                 <Row>
-                    <Col xs={6} style={column} className="f">TensorFlow</Col>
+                    <Col xs={6} style={column} className="f">SkLearn</Col>
                     <Col xs={6} style={column} className="g">JAVA</Col>
                 </Row>
             </Container>
