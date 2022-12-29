@@ -10,12 +10,12 @@ const Projects=()=>{
                 <Project 
                 title='Book Recommendation System' 
                 gitlink='https://github.com/jaissugam/Book-Recommendation-System' 
-                weblink='https://recombook.herokuapp.com/'
+                weblink='http://bookishh.ml/'
                 info='The webapp and the underlying recommender model works to recommend content-wise most similar books upon input using Cosine Similarity.'></Project>
                 <Project 
                 title='Offensive Texts Classification' 
                 gitlink='https://github.com/jaissugam/Offensive-Text-Identification' 
-                weblink='https://offlang.herokuapp.com/'
+                weblink='http://offlang.pythonanywhere.com/'
                 info='It implements classification models like Naive Bayes and LSTM to classify offensive tweets.'></Project>
                 <Project 
                 title='Movie Box Office Prediction' 
