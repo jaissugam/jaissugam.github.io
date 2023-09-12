@@ -19,7 +19,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "gh-pages-clean": "rm -rf node_modules/gh-pages/.cache",
+    "deploy": "gh-pages-clean && gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
