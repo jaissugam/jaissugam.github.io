@@ -8,19 +8,19 @@ const Projects=()=>{
             <Card.Header as="h5" style={{textAlign:'center'}}>Mapping the skills to use</Card.Header>
             <Card.Body style={{backgroundColor:"#343a40"}}>
                 <Project 
-                title='Book Recommendation System' 
-                gitlink='https://github.com/jaissugam/Book-Recommendation-System' 
-                weblink='http://bookishh.ml/'
-                info='The webapp and the underlying recommender model works to recommend content-wise most similar books upon input using Cosine Similarity.'></Project>
-                <Project 
                 title='Offensive Texts Classification' 
                 gitlink='https://github.com/jaissugam/Offensive-Text-Identification' 
                 weblink='http://offlang.pythonanywhere.com/'
                 info='It implements classification models like Naive Bayes and LSTM to classify offensive tweets.'></Project>
                 <Project 
-                title='Movie Box Office Prediction' 
-                gitlink='https://github.com/jaissugam/Movie-Box-Office-Prediction-using-SVM' 
-                info='The project uses Support Vector Machines(SVM) Regression model to predict the box-office collection of movies.'></Project>
+                title='Scalable Image Recognition using Vocabulary Tree' 
+                gitlink='https://github.com/jaissugam/Scalable-Recognition-using-Vocabulary-Tree' 
+                info='The project implements heirarchical k-means clustering and feature detector algorithms to create enhanced Vocabulary Trees for Real-Time Object Recognition in Image and Video Streams'></Project>
+                <Project 
+                title='Book Recommendation System' 
+                gitlink='https://github.com/jaissugam/Book-Recommendation-System' 
+                weblink='http://bookishh.ml/'
+                info='The webapp and the underlying recommender model works to recommend content-wise most similar books upon input using Cosine Similarity.'></Project>
                 <Project 
                 pic={spacex}
                 title='SpaceX WebApp' 
