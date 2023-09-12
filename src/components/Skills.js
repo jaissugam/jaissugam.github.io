@@ -20,7 +20,7 @@ const Skills=()=>{
                     React JS
                     </Col>
                     <Col xs={6} md={4} style={column} className="d">
-                    Flask
+                    NLP
                     </Col>
                     <Col xs={6} md={4} style={column} className="e">
                     Python

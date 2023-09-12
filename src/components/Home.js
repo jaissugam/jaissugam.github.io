@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container,Row,Col} from 'react-bootstrap';
-import profile from '../pics/profile.jpg';
+import profile from '../pics/profile.jpeg';
 import Quote from './Quote';
 import Slider from './Slider';
 import '../App.css';

@@ -4,7 +4,10 @@ const collection=[
     ['Magic is believing in yourself. If you can make that happen, you can make anything happen.','Johann Wolfgang Von Goethe'],
     ['If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.','Steve Jobs'],
     ['Whether You Think You Can Or Think You Can’t, You’re Right.','Henry Ford'],
+    ['The Future Belongs To Those Who Believe In The Beauty Of Their Dreams.','Eleanor Roosevelt'],
     ['You can’t use up creativity. The more you use, the more you have.','Maya Angelou'],
+    ['Don’t Let Yesterday Take Up Too Much Of Today.','Will Rogers'],
+    ['Technology is a friend who will not be a friend. If you want a friend, get a dog.','Dave Barry'],
     ['The man on top of the mountain didn’t fall there.','Vince Lombardi'],
     ['Nothing is really work unless you would rather be doing something else.','J.M. Barrie'],
     ['Done is better than perfect.','Sheryl Sandberg'],
@@ -12,7 +15,7 @@ const collection=[
     ['Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you.','Nathaniel Hawthorne']
 ];
 const Quote=()=>{
-    const num=Math.floor(Math.random() * 5);
+    const num=Math.floor(Math.random() * 12);
     return (
         <Card style={quote} className="quote">
             <Card.Header className="head">Quote Of The Day</Card.Header>
