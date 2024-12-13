@@ -7,11 +7,10 @@ const Slider=()=>{
         <div className="slider-wrapper">
           <h3>Sugam Jaiswal</h3>
           <div className="slider text-wrapper">
-              <div className="slider-text1">LEARNER</div>
-              <div className="slider-text2">PROGRAMMER</div>
-              <div className="slider-text3">WEB DEVELOPER</div>
-              <div className="slider-text4">TRAVELLER</div>
-              <div className="slider-text5">DREAMER</div>
+              <div className="slider-text1">PROGRAMMER</div>
+              <div className="slider-text2">AI RESEARCHER</div>
+              <div className="slider-text3">SOFTWARE ENGINEER</div>
+              <div className="slider-text4">LEARNER</div>
           </div>
         </div>       
       </div>
