@@ -28,7 +28,7 @@ const Skills=()=>{
                 </Row>
                 <br></br>
                 <Row>
-                    <Col xs={6} style={column} className="c">Natural Language Processing</Col>
+                    <Col xs={6} style={column} className="a">NLP</Col>
                     <Col xs={6} style={column} className="b">Scikit-Learn</Col>
                 </Row>
                 <br></br>
