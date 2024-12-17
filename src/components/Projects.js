@@ -28,10 +28,6 @@ const Projects=()=>{
                 weblink='https://spacex1.netlify.app/'
                 info='The app is built to provide a user interface to access the list of programs conducted by SpaceX since 2015.The data is taken from the publicly available spaceX API and the total of 4 apis have been used to implement vaious filters.'></Project>
                 <Project 
-                title='Lane Line Detection System' 
-                gitlink='https://github.com/jaissugam/Lane-Line-Detection' 
-                info='The project presents a Python program running on OpenCV library. The compiled program detects the lane markers on the road adaptable in both picture and video formats.'></Project>
-                <Project 
                 title='ToDo List' 
                 gitlink='https://github.com/jaissugam/todolist' 
                 weblink='https://jaissugam.github.io/todolist/'
