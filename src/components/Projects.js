@@ -5,7 +5,7 @@ import './Project.css';
 const Projects=()=>{
     return (
         <Card className="projects">
-            <Card.Header as="h5" style={{textAlign:'center'}}>Mapping the skills to use</Card.Header>
+            <Card.Header as="h5" style={{textAlign:'center'}}>Past projects</Card.Header>
             <Card.Body style={{backgroundColor:"#343a40"}}>
             <Project 
                 title='Book Recommendation System' 

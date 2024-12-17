@@ -17,9 +17,9 @@ const Header=()=>{
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
-                            
                             <Link style={link} to="skills" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link>
                             <Link style={link} to="projects" activeClass="active" spy={true}  smooth={true} offset={-70} duration={500}>Projects</Link>
+                            <Link style={link} to="/" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>Research</Link>
                             <Link style={link} to="about" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
                             <Link style={link} onClick={scroll.scrollToBottom} activeClass="active"  smooth={true} offset={-70} duration={1000}>Connect</Link>
                             
