@@ -3,7 +3,7 @@ import './Skills.css';
 const Skills=()=>{
     return (
         <Card className="skills">
-            <Card.Header as="h5" style={{textAlign:'center'}}>I excel at tech like...</Card.Header>
+            <Card.Header as="h5" style={{textAlign:'center'}}>Some tech I excel at...</Card.Header>
             <Card.Body>
             <Container>
                 <Row>

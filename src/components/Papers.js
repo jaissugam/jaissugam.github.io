@@ -8,33 +8,31 @@ const Papers = () => {
             <Card.Header as="h5" style={{textAlign:'center'}}>Recent Publications</Card.Header>
             <Card.Body style={{backgroundColor:"#343a40"}}>
                 <Project 
-                    title='Paper Title 1' 
-                    gitlink='https://github.com/jaissugam/Paper1' 
-                    weblink='https://example.com/paper1'
-                    info='Description of Paper 1'>
+                    title='Building Personality-Adaptive Conversational AI for Mental Health Therapy' 
+                    gitlink='https://dl.acm.org/doi/pdf/10.1145/3698587.3701489' 
+                    weblink='https://dl.acm.org/doi/abs/10.1145/3698587.3701489'
+                    info='Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics, Schenzhen, China (2024/11/22)'
+                    text1 = "Read PDF"
+                    text2 = "Cite here">
                     
                 </Project>
                 <Project 
-                    title='Paper Title 2' 
-                    gitlink='https://github.com/jaissugam/Paper2' 
-                    weblink='https://example.com/paper2'
-                    info='Description of Paper 2'>
+                    title='iCare-An AI-Powered Virtual Assistant for Mental Health' 
+                    gitlink='https://ieeexplore.ieee.org/abstract/document/10628911'
+                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA (2024/6/1)'
+                    text1 = "Read PDF"
+                    text2 = "Cite here">
                     
                 </Project>
                 <Project 
-                    title='Paper Title 3' 
-                    gitlink='https://github.com/jaissugam/Paper3' 
-                    weblink='https://example.com/paper3'
-                    info='Description of Paper 3'>
+                    title='Assessing Empathy in Mental Health Caregivers using Conversational AI' 
+                    gitlink='https://ieeexplore.ieee.org/abstract/document/10628734' 
+                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA (2024/6/1)'
+                    text1 = "Read PDF"
+                    text2 = "Cite here">
                 
                 </Project>
-                <Project 
-                    title='Paper Title 3' 
-                    gitlink='https://github.com/jaissugam/Paper3' 
-                    weblink='https://example.com/paper3'
-                    info='Description of Paper 3'>
                 
-                </Project>
             </Card.Body>
         </Card>
     );

@@ -6,7 +6,7 @@ const Footer=()=>{
             <Card.Header as="h5" style={{textAlign:'center'}}>Let's connect at...</Card.Header>
             <Card.Body style={mycard}>
             <ListGroup horizontal>
-                <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/sugam-jaiswal-31a27a1a3/'><i className="fab fa-linkedin fa-1.5x"></i></a></ListGroup.Item>
+                <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/sugam-jaiswal'><i className="fab fa-linkedin fa-1.5x"></i></a></ListGroup.Item>
                 <ListGroup.Item ><a style={{color:'black'}} rel="noreferrer" target='_blank' href='https://github.com/jaissugam'><i className="fab fa-github fa-1.5x"></i></a></ListGroup.Item>
                 <ListGroup.Item ><a style={{color:'black'}} rel="noreferrer" target='_blank' href='https://scholar.google.com/citations?user=mISYzdgAAAAJ&hl=en'><i className="fab fa-google fa-1.5x"></i></a></ListGroup.Item>
                 <ListGroup.Item ><a style={{color:'#00acee'}} rel="noreferrer" target='_blank' href='https://twitter.com/itsmesugam'><i className="fab fa-twitter fa-1.5x"></i></a></ListGroup.Item>
