@@ -2,6 +2,11 @@
     animation: abc 2s infinite ;
     
 }
+
+.papers h5{
+    animation: abc 2s infinite ;
+    
+}
 @keyframes abc {
     25%{
         color:rgb(219, 199, 163);
