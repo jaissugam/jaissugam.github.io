@@ -32,8 +32,8 @@ const Project=(props)=>{
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>
-                    <Card.Link target='_blank' href={props.gitlink}>{props.text1}</Card.Link>
-                    <Card.Link target='_blank' href={props.weblink}>{props.text2}</Card.Link>
+                    <Card.Link target='_blank' href={props.gitlink}>{props.text2}</Card.Link>
+                    <Card.Link target='_blank' href={props.weblink}>{props.text1}</Card.Link>
                 </Card.Body>
             </Card>
         </div>

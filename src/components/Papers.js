@@ -11,15 +11,15 @@ const Papers = () => {
                     title='Building Personality-Adaptive Conversational AI for Mental Health Therapy' 
                     gitlink='https://dl.acm.org/doi/pdf/10.1145/3698587.3701489' 
                     weblink='https://dl.acm.org/doi/abs/10.1145/3698587.3701489'
-                    info='Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics, Schenzhen, China (2024/11/22)'
-                    text1 = "Read PDF"
-                    text2 = "Cite here">
+                    info='Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics, Schenzhen, China | Nov 22, 2024'
+                    text2 = "Read PDF"
+                    text1 = "Cite here">
                     
                 </Project>
                 <Project 
                     title='iCare-An AI-Powered Virtual Assistant for Mental Health' 
                     gitlink='https://ieeexplore.ieee.org/abstract/document/10628911'
-                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA (2024/6/1)'
+                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA | June 1, 2024'
                     text1 = "Read PDF"
                     text2 = "Cite here">
                     
@@ -27,7 +27,7 @@ const Papers = () => {
                 <Project 
                     title='Assessing Empathy in Mental Health Caregivers using Conversational AI' 
                     gitlink='https://ieeexplore.ieee.org/abstract/document/10628734' 
-                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA (2024/6/1)'
+                    info='2024 IEEE 12th International Conference on Healthcare Informatics, Orlando, Florida, USA | June 1, 2024'
                     text1 = "Read PDF"
                     text2 = "Cite here">
                 
