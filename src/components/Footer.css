@@ -1,9 +1,6 @@
 .foot{
     background-color: #343a40;
-}
-.foot h5{
-    animation: xyz 1s infinite ;
-    
+    color:rgb(219, 199, 163);
 }
 @keyframes xyz {
     25%{

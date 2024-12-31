@@ -2,10 +2,19 @@ import {Card} from 'react-bootstrap';
 import Project from './Project';
 import './Project.css';
 
+const link={
+    marginRight:"10px",
+    marginLeft:"10px",
+    color: '#343a40'
+}
+
 const Blogs = () => {
     return (
         <Card className="projects">
-            <Card.Header as="h5" style={{textAlign:'center'}}>Coming soon...</Card.Header>
+            <div>
+                <a style={link} rel="noreferrer" href='/'>Go back to Portfolio</a>
+            </div>
+            <Card.Header as="h5" style={{textAlign:'center'}}>Coming soon!</Card.Header>
             <Card.Body style={{backgroundColor:"#343a40"}}>
             {/* <Project 
                 title='Book Recommendation System' 
