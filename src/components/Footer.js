@@ -12,7 +12,7 @@ const Footer=()=>{
                 <ListGroup.Item ><a style={{color:'#00acee'}} rel="noreferrer" target='_blank' href='https://twitter.com/itsmesugam'><i className="fab fa-twitter fa-1.5x"></i></a></ListGroup.Item>
                 {/* <ListGroup.Item ><a style={{color:'blue'}} rel="noreferrer" target='_blank' href='https://www.facebook.com/sugam.jaiswal'><i className="fab fa-facebook fa-1.5x"></i></a></ListGroup.Item> */}
                 <ListGroup.Item ><a style={{color:'#bc2a8d'}} rel="noreferrer" target='_blank' href='https://www.instagram.com/sgm4u/'><i className="fab fa-instagram fa-1.5x"></i></a></ListGroup.Item>
-                <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" href='/blogs'><i className="fas fa-blog fa-1.5x"></i></a></ListGroup.Item>
+                <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" href='/#/blogs'><i className="fas fa-blog fa-1.5x"></i></a></ListGroup.Item>
                 <ListGroup.Item ><a style={{color:'#0e76a8'}} rel="noreferrer" target="_blank" href='mailto:sgmjaiswal@gmail.com'><i className="fas fa-envelope fa-1.5x"></i></a></ListGroup.Item>
             </ListGroup>
             <Card.Subtitle style={{marginTop:'10px'}}>Crafted by sgm with 💓</Card.Subtitle>
